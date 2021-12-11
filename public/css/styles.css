@@ -9,13 +9,6 @@
 
   /* Font */
   --font-primary: "Roboto", sans-serif;
-
-  /* Font size */
-  --paragraph: 12px;
-  --tittle: 24px;
-  --prices: 18px;
-  --descriptions: 16px;
-  --discount: 16px;
 }
 
 * {
@@ -83,7 +76,7 @@ header #lupa {
 }
 
 header p {
-  font-size: var(--paragraph);
+  font-size: 12px;
   margin: 20px 10%;
   width: 100%;
   text-align: center;
@@ -289,7 +282,7 @@ footer article p {
 
 @media (min-width: 1080px) {
   header nav ul li {
-    font-size: 15px;
+    font-size: 16px;
     margin-right: 40px;
   }
   header .buscador {
@@ -300,5 +293,11 @@ footer article p {
   }
   header p {
     font-size: 15px;
-  }  
+  }
+  footer article h2 {
+    font-size: 16px;
+  }
+  footer article p {
+    font-size: 14px;
+  }
 }
